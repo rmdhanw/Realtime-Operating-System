@@ -1,0 +1,9 @@
+main.c:71:5:main	1
+main.c:150:6:SystemClock_Config	3
+main.c:187:13:MX_GPIO_Init	1
+main.c:211:6:accessSharedData	2
+main.c:237:6:StartDefaultTask	1
+main.c:257:6:GreenLedTask	1
+main.c:281:6:RedLedTask	1
+main.c:307:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:324:6:Error_Handler	1

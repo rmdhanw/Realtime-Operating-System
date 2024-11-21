@@ -1,0 +1,11 @@
+main.c:73:5:main	1
+main.c:156:6:SystemClock_Config	3
+main.c:193:13:MX_GPIO_Init	1
+main.c:217:6:accessSharedData	2
+main.c:233:6:SimulateReadWriteOperation	2
+main.c:250:6:StartDefaultTask	1
+main.c:268:6:GreendLedTask	1
+main.c:291:6:RedLedTask	1
+main.c:314:6:OrangeLedTask	1
+main.c:334:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:351:6:Error_Handler	1
