@@ -8,7 +8,7 @@ Features LED Control: Manage LEDs based on button input and ADC values. Button R
 
 Requirements Hardware: STM32, LED, button, potentiometer Software: STM32CubeIDE or other compatible STM32 development platform
 
-Installation Clone this repository: bash Salin kode git clone https://github.com/rmdhanw/Realtime-Operating-System.git Open the project in STM32CubeIDE. Build and upload the program to the STM32 device.
+Installation Clone this repository: bash Salin kode git clone https://github.com/rmdhanw/Realtime-Operating-System/tree/main/Task%202 Open the project in STM32CubeIDE. Build and upload the program to the STM32 device.
 
 Task Structure in the Program Here’s an explanation of each task in the program:
 
