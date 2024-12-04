@@ -21,6 +21,7 @@ onLED (LEDTask) Function: Controls two LEDs based on the ADC value (x_val). If t
 getADCTask Function: Reads the ADC value from a potentiometer and stores it in the x_val variable. Interaction: The x_val value is used by onLED to control the LED and by dispUARTTask for display over UART.
 
 dispUARTTask Function: Manages UART communication. If it receives a 1, it sends the x_val (ADC value) over UART. If it receives a 2, it sends "Hello World!". It also sends "Button 1 pressed" when the button is pressed. Interaction: Depends on the x_val value from getADCTask and button status from pickButtonTask. This task allows user interaction via UART.
+
 Usage LED Control: Press the button to turn the LED on with a blinking pattern or light it up according to the ADC value. ADC Monitoring: View ADC values from the potentiometer via UART. UART Control: Use UART to receive data or send commands (1 for ADC value, 2 for "Hello World!" message).
 
 Contribution Interested in contributing? Fork this repository. Create a new branch (git checkout -b new-feature). Commit your changes (git commit -m 'Add new feature'). Push to the branch (git push origin new-feature). Open a Pull Request.
