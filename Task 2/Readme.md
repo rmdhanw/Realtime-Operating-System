@@ -1,4 +1,5 @@
 Realtime-Operating-System
+
 This repository will hold multiple projects specially at Realtime Operating Sytem undertaken during my time in university.
 
 STM32 Program for LED Control, Button Input, and UART Communication This project manages various functions on an STM32 microcontroller, including LED control, button reading, ADC value reading from a potentiometer, and UART communication. The program is structured with independent tasks to ensure optimal responsiveness.
