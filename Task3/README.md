@@ -43,4 +43,15 @@ This project is designed for an STM32-based board. The following pins are used:
 - `stm32xxxx_hal_conf.h`: HAL Library configuration.
 - `FreeRTOSConfig.h`: FreeRTOS configuration.
 
-## Project Structure
+## How to Run
+1. **Hardware Setup**:
+   - Connect the LEDs according to the pins configured in `MX_GPIO_Init`.
+   - Ensure the STM32 microcontroller is properly connected to the debugger/computer.
+
+2. **Build and Flash**:
+   - Open this project in STM32CubeIDE.
+   - Build the project by pressing *Ctrl+B*.
+   - Flash the program to the STM32 board by pressing *F11*.
+
+3. **Monitor Output**:
+   - Observe the LEDs blinking according to the patterns defined in the tasks.
